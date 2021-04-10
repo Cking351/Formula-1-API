@@ -46,9 +46,21 @@ public class SeedData implements CommandLineRunner {
         t9 = teamService.save(t9);
         t10 = teamService.save(t10);
 
-//        Driver d1 = new Driver("Lewis", "Hamilton", "https://www.formula1.com/content/dam/fom-website/drivers/L/LEWHAM01_Lewis_Hamilton/lewham01.png.transform/2col/image.png", t1);
-//        Driver d2 = new Driver("Valtteri", "Bottas", "https://www.formula1.com/content/dam/fom-website/drivers/V/VALBOT01_Valtteri_Bottas/valbot01.png.transform/2col/image.png", t1);
-//        d1 = driverService.save()
+        // Mercedes
+        Driver d1 = new Driver("Lewis", "Hamilton", "https://www.formula1.com/content/dam/fom-website/drivers/L/LEWHAM01_Lewis_Hamilton/lewham01.png.transform/2col/image.png", t1);
+        t1.getDrivers().add(d1);
+        Driver d2 = new Driver("Valtteri", "Bottas", "https://www.formula1.com/content/dam/fom-website/drivers/V/VALBOT01_Valtteri_Bottas/valbot01.png.transform/2col/image.png", t1);
+        t1.getDrivers().add(d2);
+
+        // Red Bull Racing
+        Driver d3 = new Driver("Max", "Verstappen", "https://www.formula1.com/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png.transform/2col/image.png", t2);
+        t2.getDrivers().add(d3);
+        Driver d4 = new Driver("Sergio", "Perez", "https://www.formula1.com/content/dam/fom-website/drivers/S/SERPER01_Sergio_Perez/serper01.png.transform/2col/image.png", t2);
+        t2.getDrivers().add(d4);
+
+
+
+
 
     }
 }
