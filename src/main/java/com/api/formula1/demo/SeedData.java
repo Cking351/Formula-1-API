@@ -58,7 +58,53 @@ public class SeedData implements CommandLineRunner {
         Driver d4 = new Driver("Sergio", "Perez", "https://www.formula1.com/content/dam/fom-website/drivers/S/SERPER01_Sergio_Perez/serper01.png.transform/2col/image.png", t2);
         t2.getDrivers().add(d4);
 
+        // McLaren
+        Driver d5 = new Driver("Daniel", "Ricciardo", "https://www.formula1.com/content/dam/fom-website/drivers/D/DANRIC01_Daniel_Ricciardo/danric01.png.transform/2col/image.png", t3);
+        t3.getDrivers().add(d5);
+        Driver d6 = new Driver("Lando", "Norris", "https://www.formula1.com/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png.transform/2col/image.png", t3);
+        t3.getDrivers().add(d6);
 
+        // Ferrari
+        Driver d7 = new Driver("Charles", "Leclerc", "https://www.formula1.com/content/dam/fom-website/drivers/C/CHALEC01_Charles_Leclerc/chalec01.png.transform/2col/image.png", t4);
+        t4.getDrivers().add(d7);
+        Driver d8 = new Driver("Carloz", "Sainz", "https://www.formula1.com/content/dam/fom-website/drivers/C/CARSAI01_Carlos_Sainz/carsai01.png.transform/2col/image.png", t4);
+        t4.getDrivers().add(d8);
+
+        // Alpha Tauri
+        Driver d9 = new Driver("Yuki", "Tsunoda", "https://www.formula1.com/content/dam/fom-website/drivers/Y/YUKTSU01_Yuki_Tsunoda/yuktsu01.png.transform/2col/image.png", t5);
+        t5.getDrivers().add(d9);
+        Driver d10 = new Driver("Pierre", "Gasly", "https://www.formula1.com/content/dam/fom-website/drivers/P/PIEGAS01_Pierre_Gasly/piegas01.png.transform/2col/image.png", t5);
+        t5.getDrivers().add(d10);
+
+        // Aston Martin
+        Driver d11 = new Driver("Sebastion", "Vettel", "https://www.formula1.com/content/dam/fom-website/drivers/S/SEBVET01_Sebastian_Vettel/sebvet01.png.transform/2col/image.png", t6);
+        t6.getDrivers().add(d11);
+        Driver d12 = new Driver("Lance", "Stroll", "https://www.formula1.com/content/dam/fom-website/drivers/L/LANSTR01_Lance_Stroll/lanstr01.png.transform/2col/image.png", t6);
+        t6.getDrivers().add(d12);
+
+        // Alfa Romeo
+        Driver d13 = new Driver("Antonio", "Giovinazzi", "https://www.formula1.com/content/dam/fom-website/drivers/A/ANTGIO01_Antonio_Giovinazzi/antgio01.png.transform/2col/image.png", t7);
+        t7.getDrivers().add(d13);
+        Driver d14 = new Driver("Kimi", "Räikkönen", "https://www.formula1.com/content/dam/fom-website/drivers/K/KIMRAI01_Kimi_R%C3%A4ikk%C3%B6nen/kimrai01.png.transform/2col/image.png", t7);
+        t7.getDrivers().add(d14);
+
+        // Alpine
+        Driver d15 = new Driver("Fernando", "Alonso", "https://www.formula1.com/content/dam/fom-website/drivers/F/FERALO01_Fernando_Alonso/feralo01.png.transform/2col/image.png", t8);
+        t8.getDrivers().add(d15);
+        Driver d16 = new Driver("Esteban", "Ocon", "https://www.formula1.com/content/dam/fom-website/drivers/E/ESTOCO01_Esteban_Ocon/estoco01.png.transform/2col/image.png", t8);
+        t8.getDrivers().add(d16);
+
+        // Williams
+        Driver d17 = new Driver("George", "Russell", "https://www.formula1.com/content/dam/fom-website/drivers/G/GEORUS01_George_Russell/georus01.png.transform/2col/image.png", t9);
+        t9.getDrivers().add(d17);
+        Driver d18 = new Driver("Nicholas", "Latifi", "https://www.formula1.com/content/dam/fom-website/drivers/N/NICLAF01_Nicholas_Latifi/niclaf01.png.transform/2col/image.png", t9);
+        t9.getDrivers().add(d18);
+
+        // Haas
+        Driver d19 = new Driver("Mick", "Schumacher", "https://www.formula1.com/content/dam/fom-website/drivers/M/MICSCH02_Mick_Schumacher/micsch02.png.transform/2col/image.png", t10);
+        t10.getDrivers().add(d19);
+        Driver d20 = new Driver("Nikita", "Mazepin", "https://www.formula1.com/content/dam/fom-website/drivers/N/NIKMAZ01_Nikita_Mazepin/nikmaz01.png.transform/2col/image.png", t10);
+        t10.getDrivers().add(d20);
 
 
 
