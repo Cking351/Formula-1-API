@@ -1,5 +1,7 @@
 package com.api.formula1.demo.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -26,6 +28,7 @@ public class Team {
     @OneToMany(mappedBy = "team",
     cascade = CascadeType.ALL,
     orphanRemoval = true)
+    @JsonIgnoreProperties(value = "team")
     private List<Driver> drivers = new ArrayList<>();
 
 
