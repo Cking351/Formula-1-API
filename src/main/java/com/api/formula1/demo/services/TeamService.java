@@ -8,4 +8,5 @@ public interface TeamService {
     Team save(Team team);
 
     List<Team> findAll();
+    List<Team> findByName(String teamname);
 }

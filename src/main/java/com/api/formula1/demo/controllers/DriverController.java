@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "/driver")
+@RequestMapping(value = "/")
 public class DriverController {
     @Autowired
     DriverService driverService;
@@ -24,7 +24,7 @@ public class DriverController {
         return new ResponseEntity<>(allDrivers, HttpStatus.OK);
     }
 
-    @GetMapping(value = "/{drivername}", produces="application/json")
+    @GetMapping(value = "/drivers/{drivername}", produces="application/json")
     public ResponseEntity<?> getDriverByName(@PathVariable String drivername) {
         List<Driver> driverList = driverService.getDriver(drivername);
         return new ResponseEntity<>(driverList, HttpStatus.OK);
