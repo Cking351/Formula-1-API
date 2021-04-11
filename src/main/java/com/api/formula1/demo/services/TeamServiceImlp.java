@@ -45,4 +45,15 @@ public class TeamServiceImlp implements TeamService{
         teamrepos.findAll().iterator().forEachRemaining(list::add);
         return list;
     }
+
+    @Override
+    public List<Team> findByName(String teamname) {
+        List<Team> list = new ArrayList<>();
+        teamrepos.findAll().forEach(name -> {
+            if (name.getTeamname().toLowerCase().contains(teamname)) {
+                list.add(name);
+            }
+        });
+        return list;
+    }
 }
