@@ -105,8 +105,5 @@ public class SeedData implements CommandLineRunner {
         t10.getDrivers().add(d19);
         Driver d20 = new Driver("Nikita", "Mazepin", "https://www.formula1.com/content/dam/fom-website/drivers/N/NIKMAZ01_Nikita_Mazepin/nikmaz01.png.transform/2col/image.png", t10);
         t10.getDrivers().add(d20);
-
-
-
     }
 }
